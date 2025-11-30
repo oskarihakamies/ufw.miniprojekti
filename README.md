@@ -1,4 +1,4 @@
-# Idempotentti UFW-Konfiguraatio SaltStackilla – Turvallinen Tiimiprojekti
+# Idempotentti UFW-Konfiguraatio SaltStackilla - Turvallinen Tiimiprojekti
 
 *Tekijät: Oskari Häkämies ja Joonas Janttonen*
 
