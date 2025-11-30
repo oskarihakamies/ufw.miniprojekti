@@ -1,5 +1,6 @@
 # ufw.miniprojekti
 
+*Tekijät: Oskari Häkämies ja Joonas Janttonen*
 
 Idempotentti UFW-Konfiguraatio SaltStackilla – Turvallinen Tiimiprojekti. Tässä projektissa konfiguroidaan UFW Saltilla Debian-serverille, avaten vain SSH (22), HTTP (80) ja HTTPS (443). 
 
