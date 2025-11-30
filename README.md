@@ -6,6 +6,7 @@ Tässä projektissa konfiguroidaan UFW Saltilla Debian-serverille, avaten vain S
 
 **Ennen**                   
 
+<img width="458" height="74" alt="image" src="https://github.com/user-attachments/assets/d5594d64-92d4-42f8-9661-f069d36a9a3a" />
 
 
 
@@ -19,18 +20,15 @@ Saltin sisällä ajetaan mainitsemat 3 porttia läpi:
 ufw_allow_ssh:   
   ufw.allow:     
     - name: 22/tcp   
-    - require_in:      
-        - service: ufw_service
+
  
 ufw_allow_http:   
    ufw.allow:     
      - name: 80/tcp   
-     - require_in:     
-         - service: ufw_service
+
  
  
 ufw_allow_https:   
    ufw.allow:  
      - name: 443/tcp  
-     - require_in:      
-        - service: ufw_service
+   
