@@ -13,6 +13,7 @@ Tässä projektissa konfiguroidaan UFW Saltilla Debian-serverille, avaten vain S
 
 **Jälkeen** 
 
+<img width="561" height="211" alt="image" src="https://github.com/user-attachments/assets/ad8c7d12-7ffe-447f-97d3-6fdba2020e1e" />
 
 
 Saltin sisällä ajetaan mainitsemat 3 porttia läpi: 
