@@ -18,18 +18,17 @@ Tässä projektissa konfiguroidaan UFW Saltilla Debian-serverille, avaten vain S
 
 Saltin sisällä ajetaan mainitsemat 3 porttia läpi: 
 
-ufw_allow_ssh:   
-  ufw.allow:     
-    - name: 22/tcp   
+ufw_allow_ssh:
+  cmd.run:
+    - name: ufw allow 22/tcp
 
- 
-ufw_allow_http:   
-   ufw.allow:     
-     - name: 80/tcp   
+ufw_allow_http:
+   cmd.run:
+     - name: ufw allow 80/tcp
 
- 
- 
-ufw_allow_https:   
-   ufw.allow:  
-     - name: 443/tcp  
+
+ufw_allow_https:
+   cmd.run:
+     - name: ufw allow 443/tcp
+
    
